@@ -7,6 +7,7 @@
 3. Parameters setting of the network, such as width or depth, can be configured in mainDNN.py
 
 4. Default parameters are as follows. You are strongly suggested to adjust those values properly, since they aren't quite robust.
+        
         DNN_EPOCH = 100
 
         DNN_WIDTH = 128
