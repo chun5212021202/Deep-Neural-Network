@@ -8,14 +8,23 @@
 
 4. Default parameters are as follows. You are strongly suggested to adjust those values properly, since they aren't quite robust.
         DNN_EPOCH = 100
+
         DNN_WIDTH = 128
+        
         DNN_DEPTH = 2
+        
         DNN_X_DIMENSION = 69
+        
         DNN_Y_DIMENSION = 48
+        
         DNN_LEARNING_RATE = 0.001
+        
         DNN_BATCH_SIZE = 128
+        
         DNN_MOMENTUM = 0.9
+        
         DNN_DECAY = 0.999999
+        
         DNN_OUTPUT_FILE = 'result.lab'
 
 5. Optimizations should be implemented in DNN.py. You can use different activation function or optimizer, such as Adagrad.
