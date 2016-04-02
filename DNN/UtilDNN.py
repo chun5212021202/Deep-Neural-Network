@@ -22,7 +22,7 @@ def LoadTrainDNN(training_file_path, state_file_path) :
 
 	#	read file
 	print 'File \'48_39.map\' Loading.....'
-	map_file = open('MLDS_HW1_RELEASE_v1/phones/48_39.map','r')
+	map_file = open('data/48_39.map','r')
 	map_list = map_file.read().splitlines()
 
 
@@ -101,7 +101,7 @@ def TrainDNN(data, dnn_object ,batch_size, epoch) :	# train one epoch
 def TestDNN(testing_file_path, dnn_object, batch_size, output_file) :
 
 	print 'File \'48_39.map\' Loading.....'
-	map_file = open('MLDS_HW1_RELEASE_v1/phones/48_39.map','r')
+	map_file = open('data/48_39.map','r')
 	map_list = map_file.read().splitlines()
 	map_data =  {}
 
@@ -143,7 +143,7 @@ def CheckDNN(result_file_path, answer_file_path) :
 	count = 0
 
 	print 'File \'48_39.map\' Loading.....'
-	map_file = open('MLDS_HW1_RELEASE_v1/phones/48_39.map','r')
+	map_file = open('data/48_39.map','r')
 	map_list = map_file.read().splitlines()
 	map_data =  {}
 
